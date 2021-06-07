@@ -1,8 +1,0 @@
-package Observer;
-
-import java.util.ArrayList;
-
-public class Observer implements CarSoundObservable {
-	ArrayList observers = new ArrayList();
-	CarSoundObservable car;
-}
